@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Banking Mobile App Design',
       theme: ThemeData(
-        brightness: Brightness.dark,
+        primaryColor: Colors.blue,
       ),
       home: HomeScreen(),
     );

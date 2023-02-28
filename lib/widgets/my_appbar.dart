@@ -22,7 +22,11 @@ class MyAppBar extends StatelessWidget {
               ),
               Column(
                 children: const [
-                  Icon(EneftyIcons.menu_2_outline, size: 30),
+                  Icon(
+                    EneftyIcons.menu_2_outline,
+                    size: 30,
+                    color: Colors.white,
+                  ),
                   SizedBox(width: 20),
                 ],
               )
