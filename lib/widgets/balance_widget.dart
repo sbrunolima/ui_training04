@@ -20,7 +20,7 @@ class BalanceWidget extends StatelessWidget {
                   Text(
                     '\$1.240,231',
                     style: GoogleFonts.openSans(
-                      fontSize: 26,
+                      fontSize: 30,
                       fontWeight: FontWeight.w700,
                       color: Colors.white,
                     ),
@@ -28,7 +28,7 @@ class BalanceWidget extends StatelessWidget {
                   Text(
                     '+3,04 % today',
                     style: GoogleFonts.openSans(
-                      fontSize: 12,
+                      fontSize: 14,
                       fontWeight: FontWeight.w400,
                       color: Colors.green,
                     ),

@@ -41,16 +41,18 @@ class CreditCardWidget extends StatelessWidget {
                         Text(
                           'Balance',
                           style: GoogleFonts.openSans(
-                            fontSize: 20,
+                            fontSize: 22,
                             fontWeight: FontWeight.w700,
+                            color: Colors.white,
                           ),
                         ),
-                        const SizedBox(height: 20),
+                        const SizedBox(height: 15),
                         Text(
-                          '\$5.200.17',
+                          '\$5.200,17',
                           style: GoogleFonts.openSans(
-                            fontSize: 28,
+                            fontSize: 30,
                             fontWeight: FontWeight.w400,
+                            color: Colors.white,
                           ),
                         ),
                       ],
@@ -85,14 +87,16 @@ class CreditCardWidget extends StatelessWidget {
                           'Cardholder name',
                           style: GoogleFonts.openSans(
                             fontSize: 12,
-                            fontWeight: FontWeight.w300,
+                            fontWeight: FontWeight.w400,
+                            color: Colors.white,
                           ),
                         ),
                         Text(
                           'Anna Baker',
                           style: GoogleFonts.openSans(
                             fontSize: 16,
-                            fontWeight: FontWeight.w400,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.white,
                           ),
                         ),
                       ],
@@ -114,14 +118,16 @@ class CreditCardWidget extends StatelessWidget {
                           'Expiry Date',
                           style: GoogleFonts.openSans(
                             fontSize: 12,
-                            fontWeight: FontWeight.w300,
+                            fontWeight: FontWeight.w400,
+                            color: Colors.white,
                           ),
                         ),
                         Text(
                           '02/30',
                           style: GoogleFonts.openSans(
                             fontSize: 16,
-                            fontWeight: FontWeight.w400,
+                            fontWeight: FontWeight.w500,
+                            color: Colors.white,
                           ),
                         ),
                       ],

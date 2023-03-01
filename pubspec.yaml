@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   enefty_icons: ^1.0.4
   google_fonts: ^4.0.3
+  fl_chart: ^0.61.0
+  crypto_font_icons: ^1.0.1
 
 dev_dependencies:
   flutter_test:

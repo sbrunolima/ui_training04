@@ -21,7 +21,7 @@ class PortfolioWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                'Protfolio',
+                'Porfolio',
                 style: GoogleFonts.openSans(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
