@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 //Widgets
-import '../widgets/credit_card_widget.dart';
+import '../widgets_home/credit_card_widget.dart';
 
 class BalanceWidget extends StatelessWidget {
   @override

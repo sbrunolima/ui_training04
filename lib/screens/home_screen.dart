@@ -1,18 +1,14 @@
-import 'package:crypto_font_icons/crypto_font_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:enefty_icons/enefty_icons.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:fl_chart/fl_chart.dart';
-import 'package:crypto/crypto.dart';
 
 //Widgets
-import '../widgets/my_appbar.dart';
-import '../widgets/balance_widget.dart';
-import '../widgets/portfolio_widget.dart';
-import '../widgets/watchlist_widget.dart';
-import '../widgets/watchlist_portfolio_value_widget.dart';
+import '../widgets_home/balance_widget.dart';
+import '../widgets_home/portfolio_widget.dart';
+import '../widgets_home/watchlist_widget.dart';
+import '../widgets_home/watchlist_portfolio_value_widget.dart';
 
 class HomeScreen extends StatelessWidget {
+  static const routName = '/home-screen';
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 //Screens
 import './screens/home_screen.dart';
+import './screens/auth_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: AuthScreen(),
+      routes: {
+        HomeScreen.routName: (ctx) => HomeScreen(),
+      },
     );
   }
 }
